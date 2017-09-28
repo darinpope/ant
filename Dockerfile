@@ -8,6 +8,7 @@ ENV ANT_HOME=/opt/ant
 # change to tmp folder
 WORKDIR /tmp
 
+# Does this work?
 # Download and extract apache ant to opt folder
 RUN wget --no-check-certificate --no-cookies http://archive.apache.org/dist/ant/binaries/apache-ant-${ANT_VERSION}-bin.tar.gz \
     && wget --no-check-certificate --no-cookies http://archive.apache.org/dist/ant/binaries/apache-ant-${ANT_VERSION}-bin.tar.gz.md5 \
